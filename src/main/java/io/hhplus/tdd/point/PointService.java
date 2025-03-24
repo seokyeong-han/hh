@@ -19,6 +19,7 @@ public class PointService {
 
 
     public UserPoint setPointCharge(long id, long amount) {
+        System.out.println("test");
         return null;
     }
 }
