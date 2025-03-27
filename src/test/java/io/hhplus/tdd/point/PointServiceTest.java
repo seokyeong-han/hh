@@ -94,7 +94,7 @@ class PointServiceTest {
                 createPointHistory(TransactionType.CHARGE)
         );
 
-        // when & then
+        // when & then ee
         assertThat(pointHistories).hasSize(3);
         assertThat(pointHistories.get(0).type()).isEqualTo(TransactionType.CHARGE);
         assertThat(pointHistories.get(1).type()).isEqualTo(TransactionType.USE);
